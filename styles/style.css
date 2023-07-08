@@ -54,21 +54,75 @@ padding: 20px 180px 0px 0px;
     align-items: center;
 }
 .about-img{
-    padding: 60px 0px 60px 66px;
+    padding: 60px 0px 60px 56px;
 }
 .about-title{
     margin-left: 79px;
+    padding-right: 100px;
 }
 
 .about-head{
-    color:#15141;
+    color:#151414;
     font-weight: 700;
     font-size: 40px;
+    margin-bottom: 24px;
 }
 
 .about-description{
     color:#444343;
     font-size: 16px; 
-    font-weight: 400;
     line-height: 26px;
+    margin-bottom: 15px;
+}
+.text{
+color: #444343;
+font-size: 16px;
+line-height: 26px;
+}
+.fa-solid{
+    color: rgb(53, 254, 53);
+}
+.plans-container{
+text-align: center;
+
+}
+.plans-items{
+  display: flex;
+  justify-content:center;
+    
+}
+.items{
+     padding: 40px 0px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    width: 200px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0,.07);
+}
+.plans-head{
+
+    color:#151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    
+}
+.item-img{
+width: 92px;
+height: 92px;
+
+}
+
+.item-title{
+    color:#151414;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+}
+.item-description{
+    color:#737272;
+text-align: center;
+font-size: 15px;
 }
